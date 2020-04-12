@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-color: #faf4f4 ;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a {
+  margin-left: 10px;
+}
+
+a:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+nav ul a:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.background_image_container{
+  position: static;
+}
+
+.center_content{
+  position: fixed;
+  top: 64px;
+  left: 1%;
+}
+
+.background_image{
+  margin-top: 64px;
+
+
+}
+
+.navigation_bar {
+  background-color: #00bcd4;
+}
+
+.register{
+  width: 35%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.register:hover{
+  border: 2px;
+  border-style: solid;
+
+}
+
+.request{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.login{
+  width: 35%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login:hover{
+  border: 2px;
+  border-style: solid;
+
+}
