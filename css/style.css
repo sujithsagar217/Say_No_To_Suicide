@@ -61,6 +61,10 @@ nav ul a:hover {
   text-decoration: underline;
 }
 
+.special{
+  margin: 0;
+}
+
 .login{
   width: 35%;
   text-align: center;
