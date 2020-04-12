@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
+
 <head>
   <meta charset="utf-8">
   <meta name="description" content="Provides counselling and help to prevent Suicide">
@@ -15,19 +16,23 @@
 </head>
 
 <body>
-
   <nav class="sticky">
     <div class="nav-wrapper navigation_bar">
       <a href="index.html" class="brand-logo nav_menu">Say No To Suicide</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
         <li><a class="nav_menu" onclick="login_user()" href="login.html">Login</a></li>
       </ul>
     </div>
   </nav>
 
+  <ul class="sidenav" id="mobile-demo">
+    <li><a class="nav_menu" onclick="login_user()" href="login.html">Login</a></li>
+  </ul>
+
 
 <div class="background_image_container">
-  <img class="background_image" width="100%" src="images/person.jpg" alt="say no to suicide">
+  
   <div class="center_content">
     <h3>Say No To Suicide</h3>
     <p>is a initiative to help and counsel them who needs it.Suicidal ideation is a common medical term for thoughts
