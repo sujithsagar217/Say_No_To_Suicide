@@ -26,3 +26,10 @@ function register_user(){
   form = document.getElementById("register");
   form.style.display="block";
 }
+
+/*side nav bar*/
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
