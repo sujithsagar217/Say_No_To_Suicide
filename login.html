@@ -16,17 +16,21 @@
 
 <body>
 
-  <nav class="">
+
+  <nav >
     <div class="nav-wrapper navigation_bar">
       <a href="index.html" class="brand-logo nav_menu">Say No To Suicide</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="nav_menu" onclick="login_user()">Login</a></li>
+        <li><a class="nav_menu" onclick="register_user()">Register</a></li>
         <li><a class="nav_menu" href="index.html">Home</a></li>
       </ul>
     </div>
   </nav>
 
+<div class="">
 
-  <div class="login">
+  <div class="login" id="login">
 
     <h3>Login</h3>
     <div class="row">
@@ -43,18 +47,93 @@
         </div>
         <div class="row">
           <div class="input-field col s12 special">
-            <a class="waves-effect waves-light btn">Login</a>
+            <a class="waves-effect waves-light btn">Login Now!</a>
           </div>
         </div>
         <div class="row ">
           <div  class="special input-field col s12">
             <p style="display:inline;">Haven't registered Yet?</p>
-            <a class="waves-effect waves-light btn" href="register.html">Register</a>
+            <a class="waves-effect waves-light btn" onclick="register_user()">Register</a>
           </div>
         </div>
       </form>
     </div>
   </div>
+
+
+  <div class="register" id="register" style="display:none;">
+    <div class="request">
+
+      <p>Please Don't Spam Here</p>
+
+    </div>
+
+    <h3>Registration</h3>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="age" type="text" class="validate">
+            <label for="age">Age</label>
+          </div>
+          <div class="input-field col s6">
+            <select>
+              <option value="1">Don't want to disclose</option>
+              <option value="2">Male</option>
+              <option value="3">Female</option>
+              <option value="4">Other</option>
+            </select>
+            <label>Gender</label>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+            <span class="helper-text" data-error="wrong" data-success="right"></span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="user_name" type="text" class="validate">
+            <label for="user_name">User Name</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="re-password" type="password" class="validate">
+            <label for="re-password">Re-enter Password</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <a class="waves-effect waves-light btn" >Register Now!</a>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+</div>
+
 
 </body>
 
