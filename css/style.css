@@ -21,21 +21,33 @@ nav ul a:hover {
   background-color: rgba(0,0,0,0.1);
 }
 
-.background_image_container{
-  position: static;
+p{
+  margin: 0;
 }
 
-.center_content{
-  position: fixed;
-  top: 64px;
-  left: 1%;
+.bottom_container{
+  text-align: center;
 }
 
-.background_image{
-  margin-top: 64px;
-
-
+.footer{
+  margin: 0;
 }
+
+.row{
+
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.testing{
+  display: inline-block;
+}
+
+.top{
+  width: 100%;
+}
+
+
 
 .navigation_bar {
   background-color: #00bcd4;
