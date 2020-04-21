@@ -91,3 +91,18 @@ p{
   border-style: solid;
 
 }
+
+@media screen and max-width: 100px {
+
+  body{
+    background-color: black;
+  }
+  .mobile{
+    width:100%;
+  }
+
+  .mobile-heading{
+    font-size: 20px;
+    color: black;
+  }
+}
