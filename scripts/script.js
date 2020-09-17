@@ -1,3 +1,5 @@
+console.log("Hello");
+
 /*Parallel effect of sliding webpage*/
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.parallax');
@@ -10,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('select');
     var instances = M.FormSelect.init(elems);
   });
-  console.log("hello");
 
 /*user registration slider end*/
 
