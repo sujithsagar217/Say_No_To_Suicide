@@ -7,6 +7,20 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+/*Slideshow effect*/
+document.addEventListener('DOMContentLoaded', function() {
+   var elems = document.querySelectorAll('.carousel');
+   var instances = M.Carousel.init(elems);
+ });
+
+ var instance = M.Carousel.init({
+fullWidth: true,
+indicators: true
+});
+
+
+
+
 /*start user registration slider*/
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('select');
