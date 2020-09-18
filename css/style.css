@@ -9,6 +9,17 @@ body {
   width: 100%;
 }
 
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.profilepic{
+  border: 5px;
+  border-style: solid;
+}
+
 a {
   margin-left: 10px;
 }
@@ -31,6 +42,8 @@ p{
 
 .footer{
   margin: 0;
+  position: static;
+  bottom: 0;
 }
 
 .row{
